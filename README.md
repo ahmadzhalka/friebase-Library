@@ -21,4 +21,4 @@
 # step 2:
 
 
-<img width="712" alt="צילום מסך 2023-05-06 ב-4 53 57" src="https://user-images.githubusercontent.com/119360009/236592080-f29f7dfe-3928-4435-9da5-82343c2e89bb.png">
+<img width="704" alt="צילום מסך 2023-05-06 ב-4 54 48" src="https://user-images.githubusercontent.com/119360009/236592263-b695695d-85bf-46ce-98fd-3ffe27e2a689.png">
