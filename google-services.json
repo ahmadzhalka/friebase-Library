@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "94383831674",
+    "project_id": "hwli-b8227",
+    "storage_bucket": "hwli-b8227.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94383831674:android:8fc791479c799ca6ad59c3",
+        "android_client_info": {
+          "package_name": "com.example.friebase_library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94383831674-i95en82j58milrcgnq1s05qqneodftb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TPAlEM5TRqSGtHJ3DOpWNoaUkPq4fiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94383831674-i95en82j58milrcgnq1s05qqneodftb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

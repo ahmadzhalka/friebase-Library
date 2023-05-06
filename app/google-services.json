@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "125556139182",
+    "firebase_url": "https://libe-db05b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "libe-db05b",
+    "storage_bucket": "libe-db05b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125556139182:android:7dea115d7605125ec8393f",
+        "android_client_info": {
+          "package_name": "com.example.friebase_library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125556139182-b5qnhhl8gjp7cjua7p5gmtkb6926nd7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB4t37LOtRxj0kxmlEkJ5jF8UNmR-VPNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125556139182-b5qnhhl8gjp7cjua7p5gmtkb6926nd7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
