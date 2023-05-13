@@ -24,7 +24,7 @@
 <img width="659" alt="צילום מסך 2023-05-06 ב-5 00 09" src="https://user-images.githubusercontent.com/119360009/236592447-8629cc53-f810-48db-8a59-b23c98b43cce.png">
 
 
-#Usage:
+# Usage:
 
 1. connect the project to firebase.
 
@@ -32,7 +32,7 @@
 
 3.fireBase fr=new fireBase(this);
 
-#functions:
+# functions:
 
 1) updateString(String, path,  key)
 2) updateInt(int , path,  key) 
