@@ -52,6 +52,8 @@
             }
         });
 7)  readInt(String path, String key,fireBasecallbackInt fireBasecallbackInt) example:
+
+
           fr.readInt("x", "1", new fireBaselistener.fireBasecallbackInt() {
             @Override
             public void onCallback(int i) {
@@ -60,6 +62,8 @@
             }
         });
 8) UploadFile( filepath, key) example :
+
+
        public void selectFile(){
         Intent intent = new Intent();
         intent.setType("application/pdf");
