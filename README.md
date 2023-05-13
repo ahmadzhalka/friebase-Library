@@ -68,7 +68,9 @@
         });
 8) UploadFile( filepath, key) example :
 
-
+                private String stringFilePath = Environment.getExternalStorageDirectory().getPath() + "/Download/order.pdf";
+                private File file = new File(stringFilePath);
+                private Uri filepath;
                 public void selectFile(){
                  Intent intent = new Intent();
                  intent.setType("application/pdf");
@@ -88,3 +90,5 @@
 
                  }
              }
+            
+9) downloadPDF(key)
