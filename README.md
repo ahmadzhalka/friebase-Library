@@ -75,7 +75,6 @@ fr.readObjectbyId("j", "111", new fireBaselistener.fireBasecallbackObj() {
         intent.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(Intent.createChooser(intent, "Select Document"), PICK_PDF_CODE);
     }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
