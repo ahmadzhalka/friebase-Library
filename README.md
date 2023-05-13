@@ -36,6 +36,8 @@
 3) delete( path, key)
 4) updateObject(Object , path, key) 
 5) readObjectbyId(path,key, fireBasecallbackObj) example :
+
+
     fr.readObjectbyId("j", "111", new fireBaselistener.fireBasecallbackObj() {
          @Override
          public void onCallback(Object object) {
@@ -43,7 +45,10 @@
 
          }
      });
+     
 6)  readString(String path, String key,fireBasecallback fireBasecallback) example:
+
+
         fr.readString("j", "9", new fireBaselistener.fireBasecallback() {
             @Override
             public void onCallback(String str) {
@@ -51,6 +56,7 @@
 
             }
         });
+        
 7)  readInt(String path, String key,fireBasecallbackInt fireBasecallbackInt) example:
 
 
