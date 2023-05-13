@@ -26,8 +26,11 @@
 
 #Usage:
 
-1.import com.example.mylibrary.fireBase;
-2.fireBase fr=new fireBase(this);
+1. connect the project to firebase.
+
+2.import com.example.mylibrary.fireBase;
+
+3.fireBase fr=new fireBase(this);
 
 #functions:
 
