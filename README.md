@@ -74,17 +74,17 @@ fr.readObjectbyId("j", "111", new fireBaselistener.fireBasecallbackObj() {
         intent.setType("application/pdf");
         intent.setAction(Intent.ACTION_GET_CONTENT);
         startActivityForResult(Intent.createChooser(intent, "Select Document"), PICK_PDF_CODE);
-    }
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == PICK_PDF_CODE && resultCode == RESULT_OK && data != null && data.getData() != null) {
-            if (data.getData() != null) {
-                filepath=data.getData();
-                fireBase fr=new fireBase(this);
-                fr.UploadFile(filepath,"j");
-            } else
-                Toast.makeText(this, "NO FILE CHOSEN", Toast.LENGTH_SHORT).show();
+           }
+             @Override
+             protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+                 super.onActivityResult(requestCode, resultCode, data);
+                 if (requestCode == PICK_PDF_CODE && resultCode == RESULT_OK && data != null && data.getData() != null) {
+                     if (data.getData() != null) {
+                         filepath=data.getData();
+                         fireBase fr=new fireBase(this);
+                         fr.UploadFile(filepath,"j");
+                     } else
+                         Toast.makeText(this, "NO FILE CHOSEN", Toast.LENGTH_SHORT).show();
 
-        }
-    }
+                 }
+             }
