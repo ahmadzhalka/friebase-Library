@@ -38,13 +38,13 @@
 5) readObjectbyId(path,key, fireBasecallbackObj) example :
 
 
-fr.readObjectbyId("j", "111", new fireBaselistener.fireBasecallbackObj() {
-         @Override
-         public void onCallback(Object object) {
-             Log.w("ptttx", ""+object.toString());
-         }
-     });
-     
+         fr.readObjectbyId("j", "111", new fireBaselistener.fireBasecallbackObj() {
+                  @Override
+                  public void onCallback(Object object) {
+                      Log.w("ptttx", ""+object.toString());
+                  }
+              });
+
 6)  readString(String path, String key,fireBasecallback fireBasecallback) example:
 
 
