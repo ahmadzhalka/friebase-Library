@@ -37,11 +37,11 @@
 4) updateObject(Object , path, key) 
 5) readObjectbyId(path,key, fireBasecallbackObj) example :
 
+
 fr.readObjectbyId("j", "111", new fireBaselistener.fireBasecallbackObj() {
          @Override
          public void onCallback(Object object) {
              Log.w("ptttx", ""+object.toString());
-
          }
      });
      
